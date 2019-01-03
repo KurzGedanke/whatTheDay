@@ -344,3 +344,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/vim,linux,macos,python,windows,pycharm,virtualenv,sublimetext,visualstudiocode
+
+# Starting of own .gitignore
+secrets.py
+cred.py

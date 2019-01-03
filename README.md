@@ -5,7 +5,7 @@ A mastodon bot, which will toot every 12 hours the current day.
 
 ## Usage
 
-Create a secret.py which looks like this and fill it out with your data. This is done so that credentials stay out of git.
+Create a 'cred.py' which looks like this and fill it out with your data. This is done so that credentials stay out of git.
 
 ```python
 email = ''

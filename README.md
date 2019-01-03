@@ -1,5 +1,10 @@
 # What The Day
 
+[![license MIT License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/KurzGedanke/whatTheDay/blob/master/LICENSE)
+[![Python Version 3.7](https://img.shields.io/badge/Python-3.7-blue.svg)](https://github.com/KurzGedanke/whatTheDay)
+[![Say Thanks!](https://img.shields.io/badge/Donate-💵-purple.svg)](https://kurzgedanke.me/donate/)
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-🐿️-lightgrey.svg)](https://saythanks.io/to/KurzGedanke)
+
 ![Futurama Fry Meme - What the... day...?](https://raw.githubusercontent.com/KurzGedanke/whatTheDay/master/assets/what-the-day.png)
 
 A mastodon bot, which will toot every 12 hours the current day.

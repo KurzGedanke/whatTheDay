@@ -1,6 +1,6 @@
 # What The Day
 
-![Futurama Fry Meme - What the... day...?](https://raw.githubusercontent.com/KurzGedanke/whatTheDay/master/assets/what-the-day.jpg)
+![Futurama Fry Meme - What the... day...?](https://raw.githubusercontent.com/KurzGedanke/whatTheDay/master/assets/what-the-day.png)
 
 A mastodon bot, which will toot every 12 hours the current day.
 

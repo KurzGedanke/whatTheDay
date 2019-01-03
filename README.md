@@ -7,7 +7,7 @@ A mastodon bot, which will toot every 12 hours the current day.
 
 MIT License
 
-Copyright (c) 2019 Thore
+Copyright (c) 2019 Thore Jahn (KurzGedanke)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

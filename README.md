@@ -7,19 +7,29 @@
 
 ![Futurama Fry Meme - What the... day...?](https://raw.githubusercontent.com/KurzGedanke/whatTheDay/master/assets/what-the-day.png)
 
-A mastodon bot, which will toot every 12 hours the current day.
+A mastodon bot, which will toot every 12 hours the current weekday, date and time.
 
 ## Usage
 
-Create a 'cred.py' which looks like this and fill it out with your data. This is done so that credentials stay out of git.
+If you want to use `whattheday.py` by your own follow these steps.
 
-```python
-email = ''
-passwort = ''
-clientID = ''
-clientSecret = ''
-accessToken = ''
+Clone the reposetory to your computer:
+
+```bash
+git clone git@github.com:KurzGedanke/whatTheDay.git
 ```
+
+and install all the requierements
+
+```bash
+pip3 install -r requirements.txt
+```
+
+rename the `cred_ex.py` to `cred.py` and fill it out with your data.
+
+Run the programm in the background. If you are on ubuntu take a look at this thread.
+
+[How to run the Python program in the background in Ubuntu machine?](https://askubuntu.com/questions/396654/how-to-run-the-python-program-in-the-background-in-ubuntu-machine#396655)
 
 # License
 

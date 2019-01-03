@@ -6,6 +6,9 @@ import time
 
 
 def post():
+    '''
+    Login for Mastdon and tooting a toot with the current weekday, date and time.
+    '''
     weekday = time.strftime('%A')
     dateDMY =time.strftime('%d/%m/%Y')
     clock = time.strftime("%X")
@@ -19,9 +22,14 @@ def post():
         cred.password,
     )
     mastodon.status_post(f'Today is {weekday}, the {dateDMY} and it is {clock} o\'clock!', visibility='unlisted')
+    # print(f'Today is {weekday}, the {dateDMY} and it is {clock} o\'clock!')
 
 def main():
-    schedule.every(2).seconds.do(post)
+    '''
+    Runs the schedule for the toots at 8 o'clock and 20 o'clock.
+    '''
+    schedule.every().day.at('08:00').do(post)
+    schedule.every().day.at('20:00').do(post)
     while True:
         schedule.run_pending()
         time.sleep(1)

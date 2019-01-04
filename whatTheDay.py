@@ -21,7 +21,8 @@ def post():
         cred.email,
         cred.password,
     )
-    mastodon.status_post(f'Today is {weekday}, the {dateDMY} and it is {clock} o\'clock!', visibility='unlisted')
+    #mastodon.status_post(f'Today is {weekday}, the {dateDMY} and it is {clock} o\'clock!', visibility='unlisted')
+    mastodon.status_post('Today is {}, the {} and it is {} o\'clock!'.format(weekday, dateDMY, clock), visibility='unlisted')
     # print(f'Today is {weekday}, the {dateDMY} and it is {clock} o\'clock!')
 
 def main():
